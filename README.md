@@ -1,51 +1,92 @@
 # AI Trip Advisor
 
-This repository contains the code for an AI-driven Trip Advisor, which generates customized trips with hotel recommendations and itineraries based on user budgets and travel preferences. Due to the use of Google Maps Places (NEW), Photos, and Geolocation APIs, this project has a restriction of staying under an expenditure of $200 monthly, hence no deployed link is provided.
+This repository contains the code for an AI-driven Trip Advisor, designed to create personalized trips with hotel recommendations and itineraries tailored to user budgets and preferences. The project uses Google Maps Places, Photos, and Geolocation APIs, with a budget restriction of $200 monthly, so no deployed link is available.
 
-## Features
+---
 
-- **Personalized Trips**: Generate trips tailored to your budget and travel choices.
-- **Hotel Recommendations**: Get hotel suggestions that fit your itinerary.
-- **Dynamic Itineraries**: Itineraries are created based on user preferences and budgets.
+## ✨ Features
 
-## Screenshots
+- **Personalized Trip Planning**: Generate custom trips based on your travel preferences and budget.
+- **Hotel Recommendations**: Find hotels that align with your itinerary and budget.
+- **Dynamic Itineraries**: Create travel plans that adapt to user inputs in real-time.
 
-![Screenshot 1](https://github.com/user-attachments/assets/1300f4a4-1a9e-409c-ba8a-46bca25721c0)
-![Screenshot 2](https://github.com/user-attachments/assets/136b31f3-f3c9-4b31-a2de-3737d5109561)
-![Screenshot 3](https://github.com/user-attachments/assets/8be09761-a8d1-4a0f-a365-425ddb4e688e)
-![Screenshot 4](https://github.com/user-attachments/assets/b7dd2f12-291d-4645-9533-7cc5298ef6fe)
-![Screenshot 5](https://github.com/user-attachments/assets/bd0cfefd-8aad-4b66-a516-58a899f86d3a)
-![Screenshot 6](https://github.com/user-attachments/assets/c859c344-80fb-4222-8b06-f9225275189b)
+---
 
-## Getting Started
+## 🚀 Getting Started
 
-To run this project on your machine, follow these steps:
+Follow these steps to set up and run the project locally:
 
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/your-username/ai-trip-advisor.git
-    cd ai-trip-advisor
-    ```
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/ai-trip-advisor.git
+cd ai-trip-advisor
+```
 
-2. **Create a `.env.local` file in the root folder**:
-    ```plaintext
-    VITE_GOOGLE_PLACE_API_KEY=your_google_place_api_key
-    VITE_GOOGLE_GEMINI_AI_API_KEY=your_google_gemini_ai_api_key
-    VITE_GOOGLE_AUTH_CLIENT_ID=your_google_auth_client_id
-    FIREBASE_API_KEY=your_firebase_api_key
-    ```
+### 2. Configure Environment Variables
+Create a `.env.local` file in the root directory and add the following variables:
+```plaintext
+VITE_GOOGLE_PLACE_API_KEY=your_google_place_api_key
+VITE_GOOGLE_GEMINI_AI_API_KEY=your_google_gemini_ai_api_key
+VITE_GOOGLE_AUTH_CLIENT_ID=your_google_auth_client_id
+FIREBASE_API_KEY=your_firebase_api_key
+```
 
-3. **Install dependencies**:
-    ```bash
-    npm install
-    ```
+### 3. Install Dependencies
+```bash
+npm install
+```
 
-4. **Run the application**:
-    ```bash
-    npm run dev
-    ```
+### 4. Run the Application
+```bash
+npm run dev
+```
 
-## Contributing
+---
 
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
+## 🛠 Technologies Used
 
+- **Google Maps APIs**: For places, photos, and geolocation services.
+- **Firebase**: For user authentication and data storage.
+- **React**: Frontend framework for building a responsive UI.
+- **Node.js**: Backend services and API integration.
+
+---
+
+## 📌 Contribution Guidelines
+
+Contributions are welcome! To contribute:
+
+1. **Fork the Repository**: 
+   - Click the "Fork" button on the top right of the repository page.
+
+2. **Create a Feature Branch**:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+
+3. **Commit Your Changes**:
+   ```bash
+   git commit -m "Add your descriptive commit message"
+   ```
+
+4. **Push Your Branch**:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+
+5. **Create a Pull Request**: 
+   - Submit your changes for review.
+
+---
+
+## 📬 Contact
+
+For any queries or suggestions, feel free to reach out:
+
+- **Email**: gauravtailor43@gmail.com
+- **GitHub**: [gauravtailor8520](https://github.com/gauravtailor8520)
+- **LinkedIn**: [Gaurav Tailor](https://www.linkedin.com/in/gaurav-tailor-bb4924223/)
+
+---
+
+Enjoy planning your next adventure with **AI Trip Advisor**! 🌍 ✈️
